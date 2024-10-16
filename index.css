@@ -11,3 +11,114 @@ h1 {
     font-size: 300%;
 }
 
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 1px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.marker {
+  width: 300px;
+  height: 40px;
+  margin: 7px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+
+.cap {
+  width: 100px;
+  height: 40px;
+}
+
+.sleeve {
+  width: 200px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 12px double rgba(0, 0, 0, 0.75);
+}
+
+.cap, .sleeve {
+  display: inline-block;
+}
+
+/* Colors */
+/* 1 */
+.powder-pink{ background: linear-gradient(rgb(214, 179, 176),rgb(248, 215, 213), rgb(173, 146, 144)); 
+    box-shadow: 0 0 20px 0 #f8d5d3; 
+}
+/* 2 */
+.blushing-bride { background: linear-gradient(rgb(211, 145, 154), rgb(249, 194, 188), rgb(207, 153, 160)); 
+    box-shadow: 0 0 20px 0 #f9b2bc; 
+}
+/* 3 */
+.melon-mambo { background: linear-gradient(rgb(191, 116, 200), rgb(229, 64, 247),rgb(180, 113, 187)); 
+    box-shadow: 0 0 20px 0 #e540f7; 
+}  
+/* 4 */
+.lovely-lipstick { background: linear-gradient(rgb(189, 28, 92), rgb(206, 22, 97), rgb(167, 14, 75));
+    box-shadow: 0 0 20px 0  #ce1661;
+ }
+/* 5 */
+.berry-burst { background: linear-gradient(rgb(167, 57, 119), rgb(188, 63, 133),rgb(149, 53, 108));
+    box-shadow: 0 0 20px 0  #bc3f85; 
+}
+/* 6 */
+.cherry-cobbler { background: linear-gradient(rgb(134, 17, 44), rgb(158, 18, 51), rgb(116, 13, 37));
+     box-shadow: 0 0 20px 0 #9e1233; 
+    }
+/* 7 */
+.merry-merlot { background: linear-gradient(rgb(133, 29, 58), #972648, rgb(138, 37, 67));
+     box-shadow: 0 0 20px 0 #962647; 
+    }
+/* 8 */
+.real-red { background: linear-gradient(rgb(192, 23, 79), rgb(233, 30, 99),rgb(203, 27, 86)); 
+    box-shadow: 0 0 20px 0 #c91e45; 
+}
+/* 9 */
+.poppy-parade { background: linear-gradient(rgba(230, 6, 43, 0.831), rgb(230, 6, 45), rgba(230, 6, 43, 0.781));
+     box-shadow: 0 0 20px 0 #e6062d; 
+    }
+/* 10 */
+.flirty-flamingo { background: linear-gradient(rgba(245, 157, 155, 0.89), rgb(245, 157, 155), rgba(245, 157, 155, 0.836));
+     box-shadow: 0 0 20px 0 #f59d9b; 
+    }
+/* 11 */
+.petal-pink { background: linear-gradient(rgba(252, 206, 182, 0.712), rgb(252, 206, 182), rgba(252, 206, 182, 0.723)); 
+    box-shadow: 0 0 20px 0 #fcceb6; 
+}
+/* 12 */
+.grapefruit-grove { background: linear-gradient(rgba(247, 162, 122, 0.795), rgb(247, 161, 122)), rgba(247, 162, 122, 0.86); 
+    box-shadow: 0 0 20px 0 #f7a17a; 
+}
+/* 13 */
+.calypso-coral { background: linear-gradient(rgba(241, 116, 88, 0.823), rgb(241, 116, 88), rgba(241, 116, 88, 0.801)); 
+    box-shadow: 0 0 20px 0 #f17458; 
+}
+/* 14 */
+.cajun-craze { background: linear-gradient(rgba(185, 63, 26, 0.863), rgb(185, 64, 26), rgba(185, 63, 26, 0.836));
+     box-shadow: 0 0 20px 0 #b9401a; 
+    }
+/* 15 */
+.pumpkin-pie { background: linear-gradient(rgba(243, 135, 20, 0.815), rgb(243, 136, 20), rgba(243, 135, 20, 0.821));
+     box-shadow: 0 0 20px 0 #f38814; 
+    }
+/* 16 */
+.mango-melody { background: linear-gradient(rgba(249, 176, 31, 0.803), #f9af1f, #f9b01fd1);
+     box-shadow: 0 0 20px #f9af1f; }
+
+/* Labels */
+.label {
+  position: absolute;
+  right: 20px;
+  font-size: 14px;
+  color: #000000;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 2px;
+}
